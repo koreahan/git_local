@@ -23,7 +23,7 @@ import lombok.extern.log4j.Log4j;
 @RequestMapping("/board/*")
 public class BoardController {
 	
-	//DI 의존성 주입
+	//DI
 	private BoardService service;
 	
 	@GetMapping("/list")
