@@ -43,8 +43,6 @@ public class BoardController {
 	@PostMapping("/register")
 	public String register(BoardVO board, RedirectAttributes rttr) {
 		log.info("register : " + board);
-		//등록하기 수정
-		log.info("commit test");
 		service.register(board);
 		
 		//Redirect로 전송할 때에는 데이터가 유실되기 때문에
