@@ -42,10 +42,9 @@ public class BoardController {
 	//2. 어떻게 redirect로 데이터를 응답페이지로 전달할 것인가?
 	@PostMapping("/register")
 	public String register(BoardVO board, RedirectAttributes rttr) {
-<<<<<<< HEAD
 		log.info("register : " + board);
-=======
->>>>>>> 3c7846d718d836d80f9b407c6f82a928b739d41f
+		//등록하기 수정
+		log.info("commit test");
 		service.register(board);
 		
 		//Redirect로 전송할 때에는 데이터가 유실되기 때문에
