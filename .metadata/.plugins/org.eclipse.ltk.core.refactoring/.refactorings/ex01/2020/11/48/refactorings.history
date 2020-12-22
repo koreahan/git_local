@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.koreait.domain.SimpleDTO&apos; to &apos;SampleDTO&apos;&#x0D;&#x0A;- Original project: &apos;ex01&apos;&#x0D;&#x0A;- Original element: &apos;com.koreait.domain.SimpleDTO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.koreait.domain.SampleDTO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SimpleDTO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.koreait.domain{SimpleDTO.java[SimpleDTO" matchStrategy="1" name="SampleDTO" qualified="false" references="true" similarDeclarations="false" stamp="1606436511990" textual="false" version="1.0"/>
-</session>
