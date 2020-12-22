@@ -24,8 +24,9 @@ import lombok.extern.log4j.Log4j;
 public class BoardController {
 	
 	//DI 의존성 주입
+	//div_a가 수정함
 	private BoardService service;
-	
+	//div_a가 작업함
 	@GetMapping("/list")
 	public void list(Criteria cri, Model model) {
 		log.info("list");
